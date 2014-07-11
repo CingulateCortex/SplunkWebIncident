@@ -1,0 +1,4 @@
+ID,Purpose,Attack Signature,Attack Tag
+1,"Find HTML Breaking injections including WhiteSpace","[(?:""+.*>)|(?:[^\w\s]\s*\/>)|(?:>"")]",XSS
+2,"Find Attribute Breaking Injections Including WhiteSpace","(?:""+.*[<=]\s*""[^""]+"")|(?:""\w+\s*=)|(?:>\w=\/)|(?:#.+\)[""\s]*>)|(?:""\s*(?:src|style|on\w+)\s*=\s*"")",XSS
+3,"Find Unquoted Attribute Breaking Injections",(?:^>[\w\s]*<\/?\w{2,}>),XSS

@@ -1,0 +1,11 @@
+[]
+access = read : [ * ], write : [ * ]
+export = system
+version = 6.1.2
+modtime = 1404989667.822965000
+
+[lookups/test.csv]
+export = none
+owner = admin
+version = 6.1.2
+modtime = 1404993253.228986000
